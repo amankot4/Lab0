@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: flex-end; /* Align navigation links to the right */
+    width: 100%; /* Ensure nav takes full width of the header */
+}
+
+nav a {
+    margin-left: 20px;
+    color: blue;
+    font-size: 16px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"] {
+    width: 86%;
+    padding: 8px;
+    margin: 10px ;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    
+}
+
+input[type="submit"] {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+}
+
+/* Specific styles for Advanced Search inputs */
+.advanced-input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    margin-left: 0;
+    padding-left: 0;
+}
+
+
+
+
+
+ 
+
